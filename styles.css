@@ -1,0 +1,145 @@
+body,ul,li,h1,h2,a{
+  padding: 0;
+  margin:0;
+}
+
+header{
+  background-color:#f63232;
+  padding:8px;
+  color:white;
+  text-align: center;
+  position:fixed;
+  z-index: 1;
+  width:100%;
+}
+header h1{
+  border:5px solid white;
+  display: inline-block;
+  padding:2px 5px;
+  margin:10px;
+  border-radius: 30px;
+}
+.banner{
+  position: relative;
+}
+.banner img{
+  max-width: 100%;
+}
+.banner .welcome{
+  display:inline-block;
+  background-color:#FEB614;
+  padding:5px 20px;
+  position:absolute;
+  top:30%;
+  left:0;
+}
+.welcome span{
+  font-size: 1.4em;
+}
+nav{
+  background-color: #f4f4f4;
+  padding:15px;
+  position:sticky;
+  z-index: 1;
+  top:80px;
+}
+nav ul{
+  text-align: center;
+  list-style-type: none;
+  white-space: nowrap;
+  max-width: 1200px;
+}
+nav li{
+  font-size:1.4em;
+  /* width:25%; */
+  margin:20px;
+  display:inline-block;
+}
+nav li a{
+  text-decoration: none;
+  color:#4a4a4a;
+}
+nav li .join{
+  color:#f63232;
+  font-size: 1.2em;
+  border:2px solid #f63232;
+  padding:5px;
+  border-radius: 25px;
+}
+main{
+  margin: 80px auto;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+article h2{
+  text-align:center;
+  color:#f63232;
+  font-size: 1.5em;
+  background-color: #f4f4f4;
+}
+article p{
+  color:#4a4a4a;
+  line-height: 2em;
+}
+.images{
+  max-width:1400px;
+  white-space: nowrap;
+  text-align: center;
+
+}
+.images li{
+  display:inline-block;
+  width:40%;
+  margin:20px;
+  position: relative;
+  list-style-type: none;
+}
+.images img{
+  max-width:100%;
+}
+
+section{
+  background-color: #f4f4f4;
+  padding:20px;
+}
+.join h2{
+  text-align: center;
+  font-size: 2em;
+}
+.join p{
+  color:#4a4a4a;
+  text-align: center;
+}
+.join form{
+  text-align: center;
+}
+.join form input{
+  color:#4a4a4a;
+  border:2px solid #4a4a4a;
+  padding:5px;
+  text-align: center;
+  border-radius: 25px;
+}
+nav li:hover{
+  text-decoration: underline;
+}
+.join form input:focus{
+  outline: none;
+  border:2px dashed blue;
+}
+.join form input:valid{
+  border:2px solid green;
+}
+.images img:hover{                          /*pseudo class*/
+  position:relative;
+  top:-4px;
+}
+p::selection{                               /*pseudo elements*/
+  background-color: pink;
+  color:white;
+}
+@media screen and(max-width:1200px){        /*media queries before this add meta viewport*/
+    .banner .welcome h2{
+      font-size: 60px;
+    }
+}
