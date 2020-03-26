@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MOSAIC</title>
+<style>
+    body{
+        text-align:center;
+    }
+    #content{
+        max-width:950px;
+        margin:0 auto;
+        display:grid;
+        grid-template-columns:repeat(3,1fr);
+        grid-auto-rows:minmax(150px,auto);
+        grid-template-rows:repeat(4,minmax(150px,auto));
+        grid-gap:5px;
+    }
+    #content >*{
+        background:blue;
+        padding:60px;
+
+    }
+    header{
+        grid-row:1/4;
+    }
+    main{
+        grid-column:2/4;
+        grid-row:1/3;
+    }
+    footer{
+        grid-column:1/3;
+    }
+    aside{
+        grid-column:2/3;
+    }
+    nav{
+        grid-column:3;
+        grid-row:3/5;
+    }
+</style>
+</head>
+<body>
+
+	<div id="content">
+
+		<header>Header</header>
+
+		<main>Main</main>
+
+		<aside>Aside</aside>
+
+		<nav>Nav</nav>
+
+		<footer>Footer</footer>
+
+	</div>
+
+</body>
+</html>
