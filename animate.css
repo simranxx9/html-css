@@ -1,0 +1,21 @@
+body{
+    background: #eee;
+}
+.cloud{
+    margin:0;
+    background-color: skyblue;
+    height:300px;
+    width:100%;
+}
+.grass{
+    margin:0 auto;
+    background-color: greenyellow;
+    height:100px;
+    width:100%;
+}
+.cloud{
+    margin:0;
+    background-color: skyblue;
+    height:300px;
+    width:100%;
+}
