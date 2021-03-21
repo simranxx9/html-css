@@ -1,8 +1,8 @@
 # HTML
 ## Concepts
-> * Tags
-> * Attributes
-> * Semantic tags
+* Tags
+* Attributes
+* Semantic tags
 ---
 # CSS
 ### Concepts
