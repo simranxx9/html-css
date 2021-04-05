@@ -1,10 +1,12 @@
 # HTML
+
 ## Concepts
 * Tags
 * Attributes
 * Semantic tags
 ---
 # CSS
+
 ### Concepts
 > * Selectors 
 > * Declarations
